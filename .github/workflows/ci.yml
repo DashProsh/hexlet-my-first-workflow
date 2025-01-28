@@ -1,13 +1,13 @@
-name: CI
+name: workflow
 
-on: [push, pull_request]
+on: push
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
 
       - name: Setup project
         run: make setup
