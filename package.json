@@ -4,7 +4,9 @@
   "description": "[![show-directory](https://github.com/DashProsh/hexlet-my-first-workflow/actions/workflows/show-directory.yml/badge.svg)](https://github.com/DashProsh/hexlet-my-first-workflow/actions/workflows/show-directory.yml)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "echo 'Build process started'",
+    "test": "echo 'Running tests'",
+    "lint": "echo 'Running linter'"
   },
   "repository": {
     "type": "git",
@@ -18,3 +20,5 @@
   },
   "homepage": "https://github.com/DashProsh/hexlet-my-first-workflow#readme"
 }
+
+
